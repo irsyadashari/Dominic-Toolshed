@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class"/>
+    <entity name="ToolEntity" representedClassName="ToolEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" attributeType="String"/>
+        <attribute name="itemCount" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="lendersName" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="loanCount" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="ToolEntity" positionX="1188" positionY="-2277" width="128" height="133"/>
+        <element name="Entity" positionX="1188.4453125" positionY="-2283.734375" width="128" height="43"/>
+    </elements>
+</model>

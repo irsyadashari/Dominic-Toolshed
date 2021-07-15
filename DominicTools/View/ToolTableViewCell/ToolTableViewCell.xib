@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="toolCell" rowHeight="90" id="KGk-i7-Jjw" customClass="ToolTableViewCell" customModule="DominicTools" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3B8-T2-MeC">
+                        <rect key="frame" x="12" y="20" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="5xD-XV-ueG"/>
+                            <constraint firstAttribute="height" constant="50" id="iks-3x-BJE"/>
+                        </constraints>
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tool name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zt6-28-vQD" userLabel="Tool Name">
+                        <rect key="frame" x="78" y="16" width="226" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Dgk-7Q-tx1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WyG-Mc-Rkz" userLabel="Item Loaned Value">
+                        <rect key="frame" x="284" y="61" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="CVl-hJ-Foi"/>
+                            <constraint firstAttribute="height" constant="20" id="ma1-RW-RHG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loan Count" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDv-UX-vOM" userLabel="Item Loaned">
+                        <rect key="frame" x="78" y="60.5" width="74" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20.5" id="EqU-DP-IBH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4W-rV-4TB" userLabel="Item Count Value">
+                        <rect key="frame" x="284" y="40.5" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="6dO-3H-zcw"/>
+                            <constraint firstAttribute="width" constant="20" id="yg3-QI-GaH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Count" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfZ-Qp-FmJ" userLabel="Item Count">
+                        <rect key="frame" x="78" y="40" width="71.5" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20.5" id="2jt-RK-kAM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3B8-T2-MeC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="4kv-fg-S3h"/>
+                    <constraint firstItem="HDv-UX-vOM" firstAttribute="leading" secondItem="3B8-T2-MeC" secondAttribute="trailing" constant="16" id="EeN-NJ-rWn"/>
+                    <constraint firstItem="Zt6-28-vQD" firstAttribute="leading" secondItem="3B8-T2-MeC" secondAttribute="trailing" constant="16" id="EoW-u1-VAy"/>
+                    <constraint firstAttribute="bottom" secondItem="HDv-UX-vOM" secondAttribute="bottom" constant="9" id="FqE-6x-AxV"/>
+                    <constraint firstItem="HDv-UX-vOM" firstAttribute="top" secondItem="LfZ-Qp-FmJ" secondAttribute="bottom" id="MTa-1S-zch"/>
+                    <constraint firstItem="WyG-Mc-Rkz" firstAttribute="centerY" secondItem="HDv-UX-vOM" secondAttribute="centerY" id="QpD-0n-VQV"/>
+                    <constraint firstAttribute="trailing" secondItem="S4W-rV-4TB" secondAttribute="trailing" constant="16" id="T3c-qC-WIL"/>
+                    <constraint firstItem="LfZ-Qp-FmJ" firstAttribute="top" secondItem="Zt6-28-vQD" secondAttribute="bottom" constant="3" id="UWK-mx-0T6"/>
+                    <constraint firstAttribute="trailing" secondItem="WyG-Mc-Rkz" secondAttribute="trailing" constant="16" id="b6l-8m-JSA"/>
+                    <constraint firstAttribute="trailing" secondItem="Zt6-28-vQD" secondAttribute="trailing" constant="16" id="cqN-dF-yJw"/>
+                    <constraint firstItem="Zt6-28-vQD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="izA-ig-yer"/>
+                    <constraint firstItem="3B8-T2-MeC" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="jtK-VU-93J"/>
+                    <constraint firstItem="LfZ-Qp-FmJ" firstAttribute="leading" secondItem="3B8-T2-MeC" secondAttribute="trailing" constant="16" id="qKP-Ih-r7c"/>
+                    <constraint firstItem="S4W-rV-4TB" firstAttribute="centerY" secondItem="LfZ-Qp-FmJ" secondAttribute="centerY" id="qrk-x2-RDS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="itemCount" destination="S4W-rV-4TB" id="NrI-Bn-f6c"/>
+                <outlet property="loanCount" destination="WyG-Mc-Rkz" id="XQW-ja-Dnf"/>
+                <outlet property="toolImage" destination="3B8-T2-MeC" id="AFw-Yv-6vE"/>
+                <outlet property="toolsName" destination="Zt6-28-vQD" id="qzX-Al-V8q"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="118.52678571428571"/>
+        </tableViewCell>
+    </objects>
+</document>
